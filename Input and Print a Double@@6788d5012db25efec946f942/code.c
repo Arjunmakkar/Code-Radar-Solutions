@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    dub float n;
-    scanf("%f",n);
-    print("You entered: .4f\n",n);
+    double n;
+    scanf("%lf",n);
+    print("You entered: .4lf\n",n);
     return 0;
 }
