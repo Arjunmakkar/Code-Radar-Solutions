@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&num);
     int msb_position=sizeof(int)*CHAR_BIT-1;
     int mask=1<<msb_position;
-    int(num&mask){
+    int(num & mask){
         printf("Set\n");
     }else(
         printf("Not Set\n");
