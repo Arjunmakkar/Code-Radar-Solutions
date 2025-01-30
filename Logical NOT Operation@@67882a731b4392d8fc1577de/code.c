@@ -3,9 +3,9 @@ int main(){
     int a;
     scanf("%d", &a);
     if(!(a > 0)){
-        printf("False\n");
-    }else{
         printf("True\n");
+    }else{
+        printf("False\n");
     }
     return 0;
 }
