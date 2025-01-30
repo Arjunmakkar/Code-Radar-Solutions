@@ -4,7 +4,6 @@ int main(){
     scanf("%d %d",&a,&b);
     int bitwise=a|b;
     printf("%d\n",bitwise);
-    }
     return 0;
 
 }
