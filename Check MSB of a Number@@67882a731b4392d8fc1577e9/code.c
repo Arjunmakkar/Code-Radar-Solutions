@@ -1,6 +1,6 @@
 #include<stdio.h>
 int isMSBSet(int number){
-    return(number &(1<<31)) !=0;
+    return(number &(1<<31));
 }
 int main(){
     int number;
