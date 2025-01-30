@@ -7,8 +7,8 @@ int main(){
     int mask=1<<msb_position;
     int(num & mask){
         printf("Set\n");
-    }else(
+    }else{
         printf("Not Set\n");
-    )
+        }
     return 0;
 }
