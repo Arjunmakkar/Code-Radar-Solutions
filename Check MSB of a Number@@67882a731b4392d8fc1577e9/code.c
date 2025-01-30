@@ -1,14 +1,14 @@
 #include<stdio.h>
-#include<limits.h>
+int isMSBSet(int number){
+    return(number &(1<<31)) !=0;
+}
 int main(){
-    int num;
-    scanf("%d",&num);
-    int msb_position=sizeof(int) * CHAR_BIT-1;
-    int mask=1<<msb_position;
-    int(num & mask){
+    int number;
+    scanf("%d",&mumber);
+    if(isMSBSet(number)){
         printf("Set\n");
     }else{
         printf("Not Set\n");
-        }
+    }
     return 0;
 }
