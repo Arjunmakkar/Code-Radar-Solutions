@@ -4,7 +4,7 @@ int isMSBSet(int number){
 }
 int main(){
     int number;
-    scanf("%d",&mumber);
+    scanf("%d",&number);
     if(isMSBSet(number)){
         printf("Set\n");
     }else{
