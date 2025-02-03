@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int a;
-    scanf("%a",&a);
+    scanf("%d",&a);
     if(a>=90){
         printf('A');
     }else if(a>=80 && a<90){
@@ -12,5 +12,6 @@ int main(){
         printf('D');
     }else{
         printf('F');
-    } return 0;
+    } 
+    return 0;
 }
