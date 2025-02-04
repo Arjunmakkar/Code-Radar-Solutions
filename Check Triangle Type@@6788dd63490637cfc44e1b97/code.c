@@ -2,7 +2,7 @@
 int main(){
     float a,b,c;
     scanf("%f %f %f",&a,&b,&c);
-    if(a=b && a=c){
+    if(a==b && a==c){
         printf("Equilateral\n");
     }else if(a==b || b==c || c==a){
         printf("Isosceles\n");
