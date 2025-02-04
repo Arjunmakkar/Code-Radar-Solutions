@@ -2,7 +2,7 @@
 int main()
 {int N;
     scanf("%d",&N);
-    switch(N):
+    switch(N)
  {  case 1:
     printf("Monday");
     break;
