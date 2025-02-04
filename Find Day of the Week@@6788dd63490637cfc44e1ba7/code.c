@@ -2,7 +2,7 @@ include<stdio.h>
 int main()
 {int N;
     scanf("%d",&N);
-    switch:
+    switch(N):
     case 1:
     printf("Monday");
     break;
