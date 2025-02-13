@@ -15,9 +15,8 @@ int main(){
             printf("Error");
         }else{
             printf("%d\n",a/b);
-        }
-    }else{
-        printf("Error");
+        }else{
+            printf("Error");
     }
     return 0;
 
