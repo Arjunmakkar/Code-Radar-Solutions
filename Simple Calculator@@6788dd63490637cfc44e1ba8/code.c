@@ -1,24 +1,26 @@
-#include<stdio.h>
-#include<stdlib.h>
-int main(){
-    int a,b;
-    char c;
-    scanf("%d%d%c",&a,&b,&c);
-    if(c=='+'){
-        printf("%d\n",a+b);
-    }else if(c=='-'){
-        printf("%d\n",a-b);
-    }else if(c=='*'){
-        printf("%d\n",a*b);
-    }else if(c=='/'){
-        if(b==0){
-            printf("Error");
-        }else{
-            printf("%d\n",a/b);
-        }
-    }else{
-        printf("Error");
-    }
-    return 0;
+#include <stdio.h>
+#include <stdlib.h>
 
+int main() {
+    int num1, num2;
+    char operator;
+    scanf("%d %d %c", &num1, &num2, &operator);
+
+    if (operator == '+') {
+        printf("%d\n", num1 + num2);
+    } else if (operator == '-') {
+        printf("%d\n", num1 - num2);
+    } else if (operator == '*') {
+        printf("%d\n", num1 * num2);
+    } else if (operator == '/') {
+        if (num2 == 0) {
+            printf("Error\n");
+        } else {
+            printf("%d\n", num1 / num2);
+        }
+    } else {
+        printf("Error\n");
+    }
+
+    return 0;
 }
