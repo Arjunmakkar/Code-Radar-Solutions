@@ -11,7 +11,7 @@ int main(){
     }else if(c=='*'){
         printf("d\n",num1*num2);
     }else if(c=='/'){
-        if(b==2){
+        if(b==0){
             printf("Error");
         }else{
             printf("d\n",num1/num2);
