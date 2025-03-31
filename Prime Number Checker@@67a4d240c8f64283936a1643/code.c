@@ -21,10 +21,10 @@
 
 
 int isPrime(int num){
-    if(num>=1){
+    if(num<=1){
         return 0;
     }
-    if(num>=3){
+    if(num<=3){
         return 1;
     }
     if(num%2==0 || num%3==0){
