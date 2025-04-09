@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main(){
-    int n;
+    int n,i;
     scanf("%d\n",&n);
     int arr[n];
-    for(int i=0;i<n;i++){
+    for( i=0;i<n;i++){
         scanf("%d/n",&arr[i]);
     }
     
    int freq[1000]={0};
-    for(int i=0;i<n;i++){
+    for( i=0;i<n;i++){
         freq[arr[i]]++;  
         
         
