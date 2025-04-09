@@ -6,8 +6,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d/n",&arr[i]);
     }
-    int freq;
-    freq[1000]={0};
+    
+   int freq[1000]={0};
     for(int i=0;i<n;i++){
         freq[arr[i]]++;  
         
