@@ -17,7 +17,7 @@ int main(){
             if(freq[arr[i]]>0)
               {
                 printf("%d %d\n",arr[i],freq[arr[i]]);
-                freq[aarr[i]]=0;
+                freq[arr[i]]=0;
               }
             
         }
